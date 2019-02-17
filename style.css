@@ -1,0 +1,124 @@
+body{
+font-family: "Titillium Web", sans-serif;
+}
+
+ /* ************************ nav bar ********************** */
+
+.nav{
+	margin-top: -20px;
+}
+
+.logo{
+	margin-top: 10px;
+}
+.nav-logo{
+	height: 60px;
+	background: #262626;
+}
+
+.nav li:nth-child(1) .active{
+	height: 40px;
+	text-align: center;
+	margin-top: -14px;
+	background: #28a745;
+
+}
+
+
+/* ** close button area  ** */
+
+.nav li:nth-child(2){
+
+	border-left: 0.5px solid gray;
+	margin-top: -22px;
+	height: 58px;
+}
+
+
+.fa-times{
+	margin-top: 20px;
+	font-size: 12px;
+	color: gray;
+}
+
+.nav li:nth-child(2) span{
+font-size: 12px;
+color: gray;
+}
+
+
+
+
+ /* ************ responsive properties of top nav bar **************** */ 
+
+
+/* hide close button at 568px */ 
+
+@media screen and (max-width: 568px){
+
+.nav li:nth-child(2) span{
+
+	display: none;
+}
+}
+
+
+/* ***************************** second nav ************************* */
+
+/* nav */
+
+.navbarmaster{
+	border: : 1px solid black;
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+
+/* contact us button */
+
+.navbar-nav li:nth-child(8) .nav-link{
+	float: right;
+	border-radius: 20px;
+	background: darkorange;
+	width: 140px;
+	height: 45px;
+}
+
+.navbar-nav li:nth-child(7) .nav-link{
+	color: darkorange;
+}
+
+/* contact number */
+
+
+hr{
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+
+.secondeliste .active .home{
+	margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1010px){
+
+	.navbar-nav li:nth-child(7) .nav-link{
+		display: none;
+	}
+
+	.secondeliste .active .home{
+	margin-left: 30px;
+}
+}
