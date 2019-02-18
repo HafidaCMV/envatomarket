@@ -248,6 +248,7 @@ margin-left: 800px;
 }
 
 
+
 /* Get digital people sectin */
 
 .leftsidecontainer {
@@ -262,6 +263,8 @@ margin-left: 800px;
 color: #fe6d34;
 }
 
+/*  elements of left side container */
+
 .leftsidecontainer h1{
 	color: #143d3c;
 }
@@ -271,3 +274,86 @@ color: #fe6d34;
 }
 
 
+/* recent work section */
+
+.recentworkcontainer{
+	margin-top: 180px;
+}
+
+.recentworkcontainer span{
+	color: #fe6d34;
+}
+
+.recentworkcontainer h1{
+	color: #143d3c;
+}
+
+/* styling element of card */
+
+.recentworkcontainer .card{
+	width: 22em;
+}
+
+.recentworkcontainer .card .card-img-top{
+	width: 22em;
+	margin-top: 0;
+}
+
+
+
+.recentworkcontainer .card p{
+	font-size: 22px;
+}
+
+.recentworkcontainer .card p:hover{
+	color: #fe6d34;
+}
+
+.recentworkcontainer .card span{
+	display: block;
+	
+}
+
+/* shadowing card */
+
+.recentworkcontainer .card{
+	 box-shadow: 2px 4px 9px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* styling card border */
+
+.recentworkcontainer .card-body{
+border-bottom: 1px solid lightgray;
+}
+
+.recentworkcontainer .portfolio{
+margin-top: 180px;
+}
+
+
+/* **************section : propostion of work ************** */ 
+
+.work-container{
+margin-top: 150px;
+margin: 0 auto;
+}
+
+.crown{
+	color: #fe6d34;
+	font-size: 45px;
+	margin-top: 150px;
+}
+
+.number-unit{
+	font-size:35px;
+}
+
+.group-span span{
+	display: block;
+}
+
+.getpackagenow{
+	border-radius: 20px;
+	background: #fe6d34;
+	color: white;
+}
