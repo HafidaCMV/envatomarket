@@ -216,8 +216,9 @@ hr{
 }
 
 .slide{
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 
@@ -245,4 +246,28 @@ margin-left: 800px;
 	
 	margin-top: 50px;
 }
+
+
+/* Get digital people sectin */
+
+.leftsidecontainer {
+	margin-top: 180px;
+}
+
+.rightsidecontainer{
+	margin-top: 180px;
+}
+
+.leftsidecontainer span {
+color: #fe6d34;
+}
+
+.leftsidecontainer h1{
+	color: #143d3c;
+}
+
+.leftsidecontainer h1+p {
+	margin-top: 30px;
+}
+
 
