@@ -121,7 +121,7 @@ hr{
 	color: #143d3c;
 }
 
-.contenu button{
+.standard-button{
 	border-radius: 20px;
 	color: white;
 	background: #fe6d34;
@@ -141,3 +141,108 @@ hr{
 	margin-left: 30px;
 
 }
+
+/* ************ services ************ */
+
+.card{
+	width: 18em;
+	margin-top: 110px;
+	text-align: center;
+	height:  400px;
+}
+
+/* first card image */
+
+.card img{
+	width: 138px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+/* second card image */
+
+.card .satisfied-client{
+	margin-top: 80px;
+	width: 120px;
+}
+
+/* third card image */
+
+.card .report-img{
+	margin-top: 78px;
+	width: 109px;
+}
+
+
+/* ***************************short brief **************************** */
+
+.short-brief{
+	margin-top: 100px;
+}
+
+/* "who we are"*/
+
+.short-brief span{
+	color: #fe6d34;
+}
+
+.short-brief h1+p{
+	margin-top: 50px;
+}
+
+.short-brief p+button{
+	margin-top: 50px;
+}
+
+
+/* ************ best service ************** */
+
+.bestservice{
+	margin-top: 100px;
+}
+.bestservice span{
+	color: #fe6d34;
+}
+
+.bestservice h1+p{
+	margin-top: 30px;
+}
+
+
+/* *************** slider *************** */
+
+.carousel-item{
+	margin: 0 auto;
+}
+
+.slide{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+/* prev arrow */
+
+.carousel-control-prev i{
+	color: black;
+	margin-top: 600px;
+margin-left: 800px;
+}
+
+
+/* next arrow */
+
+.carousel-control-next i{
+	color: black;
+	margin-top: 600px;
+	margin-left: -810px;
+}
+
+
+/* repositionning the first image */
+
+.carousel-item .card .first-img-slider{
+	
+	margin-top: 50px;
+}
+
