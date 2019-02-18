@@ -357,3 +357,33 @@ margin: 0 auto;
 	background: #fe6d34;
 	color: white;
 }
+
+/* ******************** section: Review ******************* */
+
+.review{
+	margin-top: 100px;
+}
+
+.review span{
+	color: #fe6d34;
+}
+.review h1{
+	color: #143d3c;
+}
+
+/* **** slide properties *** */
+
+.review .carousel{
+	width: 95%;
+	margin-top: 50px;
+}
+
+.review .carousel-inner{
+	height: 175px;
+	overflow: hidden;
+}
+
+.quote{
+	font-size: 30px;
+}
+	
