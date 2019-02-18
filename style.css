@@ -1,5 +1,7 @@
 body{
 font-family: "Titillium Web", sans-serif;
+margin: 0;
+padding: 0;
 }
 
  /* ************************ nav bar ********************** */
@@ -68,6 +70,7 @@ color: gray;
 /* nav */
 
 .navbarmaster{
+
 	border: : 1px solid black;
 	width: 90%;
 	margin: 0 auto;
@@ -78,6 +81,7 @@ color: gray;
 /* contact us button */
 
 .navbar-nav li:nth-child(8) .nav-link{
+
 	float: right;
 	border-radius: 20px;
 	background: darkorange;
@@ -86,6 +90,7 @@ color: gray;
 }
 
 .navbar-nav li:nth-child(7) .nav-link{
+
 	color: darkorange;
 }
 
@@ -249,7 +254,7 @@ margin-left: 800px;
 
 
 
-/* Get digital people sectin */
+/* Get digital people section */
 
 .leftsidecontainer {
 	margin-top: 180px;
@@ -274,7 +279,7 @@ color: #fe6d34;
 }
 
 
-/* recent work section */
+/* ************************ recent work section **********************************/
 
 .recentworkcontainer{
 	margin-top: 180px;
@@ -330,8 +335,54 @@ border-bottom: 1px solid lightgray;
 margin-top: 180px;
 }
 
+/* make cards responsive */ 
 
-/* **************section : propostion of work ************** */ 
+  /* at 1010px */
+
+@media screen and (max-width: 1010px){
+
+.recentworkcontainer .card{
+	width: 19em;
+}
+
+.recentworkcontainer .card .card-img-top{
+	width: 19em;
+	margin-top: 0;
+}
+
+}
+
+
+  /* at 944 */
+
+@media screen and (max-width: 944px){
+
+.recentworkcontainer .card{
+	width: 15em;
+}
+
+.recentworkcontainer .card .card-img-top{
+	width: 15em;
+	margin-top: 0;
+}
+
+}
+
+     /* 764 */
+@media screen and (max-width: 764px){
+
+.recentworkcontainer .card{
+	width: 22em;
+}
+
+.recentworkcontainer .card .card-img-top{
+	width: 22em;
+	margin-top: 0;
+}
+
+}
+
+/* **************section : proposition of work ************** */ 
 
 .work-container{
 margin-top: 150px;
@@ -353,6 +404,7 @@ margin: 0 auto;
 }
 
 .getpackagenow{
+
 	border-radius: 20px;
 	background: #fe6d34;
 	color: white;
@@ -394,11 +446,11 @@ margin: 0 auto;
 	margin-top: 150px;
 }
 
-.contact-container span{
+.contactleftside span{
 	
 	display: block;
 	padding: 15px;
-
+   
 }
 
 .contact-container h1{
@@ -407,31 +459,21 @@ margin: 0 auto;
 	color: #143d3c;
 }
 
+
+  /* text area */
+
 .textarea{
 
-	height: 200px;
-}
-
-
-.contact-container .card{
-
-position: absolute;
-height: 280px;
-box-shadow: 2px 4px 9px 4px rgba(0, 0, 0, 0.2);
+height: 200px;
 
 }
 
-.contact-container .contactleftside{
+
+.contactleftside .card{
 
 	margin-top: 80px;
-	float: left;
-
 }
 
-.contact-container span i{
-
-	color: #fe6d34;
-}
 
 .btn-submit{
 
@@ -442,22 +484,74 @@ box-shadow: 2px 4px 9px 4px rgba(0, 0, 0, 0.2);
 }
 
 
-/* last blog */ 
+.contactleftside .card-body i{
+	color: #fe6d34;
+}
+
+
+/* ************************************* last blog ******************************************* */ 
 
 .lastblog{
+
 	margin-top: 100px;
 }
+
 
 .lastblog span:nth-child(1){
 	color: #fe6d34;
 }
-.lastblog .card{
+
+
+.lastblog-album .card{
 	height: 460px;
-	width: 20em;
+	width: 19em;
 }
 
-.lastblog .card .card-img-top{
-	width: 20em;
+
+.lastblog-album .card .card-img-top{
+	width: 19em;
 	margin-top: 0;
 }
 
+
+/* ************************* menu fin page *************************** */
+
+.menu-fin-page{
+	margin-top: 130px;
+}
+
+
+.menu-fin-page i{
+	font-size: 16px;
+}
+
+
+.menu-fin-page span{
+	display: inline;
+	
+}
+
+.menu-fin-page a{
+	padding: 5px;
+	display: block;
+	
+}
+
+.menu-fin-page .input-group-text{
+	height: 38px;
+	background: white;
+}
+
+.menu-fin-page .input-group-text i{
+position: absolute;
+	margin-top: 5px;
+	margin-left: -7px;
+	color: #fe6d34; 
+}
+
+
+/* ****************************** footer ************************ */
+
+footer {
+	margin-top: 100px;
+}
