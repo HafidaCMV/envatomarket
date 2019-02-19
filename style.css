@@ -10,14 +10,13 @@ padding: 0;
 	margin-top: -20px;
 }
 
-
-.logo{
-	margin-top: 10px;
-}
-
 .nav-logo{
 	height: 60px;
 	background: #262626;
+}
+
+.nav-logo a:nth-child(1){
+	margin-top: -22px;
 }
 
 .nav li:nth-child(1) .active{
@@ -346,7 +345,8 @@ span{
 }
 
 
-/* ************************ recent work section **********************************/
+/* ************************ recent work section ********************************* */
+
 
 .recentworkcontainer{
 
@@ -507,6 +507,7 @@ margin: 0 auto;
 	font-size: 30px;
 }
 	
+
 /* ******************* section : contact ********************** */
 
 .contact-container{
@@ -556,6 +557,9 @@ height: 200px;
 
 	color: #fe6d34;
 }
+
+
+/* enhance properties of cards for a responsive view */
 
 @media screen and (max-width: 1124px){
 
@@ -638,8 +642,8 @@ height: 200px;
 .menu-fin-page .input-group-text i{
 
     position: absolute;
-	margin-top: 5px;
-	margin-left: -7px;
+	margin-top: 1px;
+	margin-left: -8px;
 	color: #fe6d34; 
 }
 
