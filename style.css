@@ -10,29 +10,31 @@ padding: 0;
 	margin-top: -20px;
 }
 
+
 .logo{
 	margin-top: 10px;
 }
+
 .nav-logo{
 	height: 60px;
 	background: #262626;
 }
 
 .nav li:nth-child(1) .active{
+
 	height: 40px;
 	text-align: center;
-	margin-top: -14px;
+	margin-top: 22px;
 	background: #28a745;
 
 }
-
 
 /* ** close button area  ** */
 
 .nav li:nth-child(2){
 
 	border-left: 0.5px solid gray;
-	margin-top: -22px;
+	margin-top: 15px;
 	height: 58px;
 }
 
@@ -56,7 +58,7 @@ color: gray;
 
 /* hide close button at 568px */ 
 
-@media screen and (max-width: 568px){
+@media screen and (max-width: 1138px){
 
 .nav li:nth-child(2) span{
 
@@ -67,35 +69,28 @@ color: gray;
 
 /* ***************************** second nav ************************* */
 
-/* nav */
+
+/* --------- standard button properties --------- */
+ 
+.btn{
+	background:  #fe6d34;
+	border-radius: 20px;
+	color: white;
+}
+
 
 .navbarmaster{
 
 	border: : 1px solid black;
-	width: 90%;
 	margin: 0 auto;
-
 }
 
-
-/* contact us button */
-
-.navbar-nav li:nth-child(8) .nav-link{
-
-	float: right;
-	border-radius: 20px;
-	background: darkorange;
-	width: 140px;
-	height: 45px;
-}
-
-.navbar-nav li:nth-child(7) .nav-link{
-
-	color: darkorange;
-}
 
 /* contact number */
 
+.navbarmaster .listedroite .number{
+	color: #fe6d34;
+}
 
 hr{
 	width: 90%;
@@ -103,9 +98,20 @@ hr{
 }
 
 
-.secondeliste .active .home{
-	margin-left: 150px;
+/* ------- list nav center -------- */
+
+
+.listecentre{
+	margin: 0 auto;
 }
+
+
+/* ------- liste nav right -------- */
+
+.listedroite{
+	float: right;
+}
+
 
 @media screen and (max-width: 1010px){
 
@@ -119,22 +125,35 @@ hr{
 
 }
 
+
+
 /* **** section: grow your business startup system better ****** */
 
-.contenu h1{
-	margin-top: 200px;
+/* ---  standard properties of title --- */
+
+
+h1{
 	color: #143d3c;
 }
 
+
+span{
+	color: #fe6d34;
+}
+
+.contenu h1{
+	margin-top: 200px;
+	
+}
+
 .standard-button{
-	border-radius: 20px;
-	color: white;
-	background: #fe6d34;
+
 	width: 150px;
 	height: 40px;
 }
 
 .contenu i{
+
 	position: absolute;
 	margin-top: 60px;
 	margin-left: 150px;
@@ -145,6 +164,11 @@ hr{
 	margin-top: 55px;
 	margin-left: 30px;
 
+}
+
+.business-img{
+
+	width: 435px;
 }
 
 /* ************ services ************ */
@@ -182,34 +206,46 @@ hr{
 /* ***************************short brief **************************** */
 
 .short-brief{
+
 	margin-top: 100px;
 }
 
-/* "who we are"*/
-
-.short-brief span{
-	color: #fe6d34;
-}
-
 .short-brief h1+p{
+
 	margin-top: 50px;
 }
 
 .short-brief p+button{
+
 	margin-top: 50px;
+}
+
+.short-brief img{
+
+	width: 450px;
+	margin-left: 30px;
+
+}
+
+
+@media screen and (max-width: 1051px){
+  .short-brief img{
+  	width: 350px;
+  }
+
 }
 
 
 /* ************ best service ************** */
 
 .bestservice{
+
 	margin-top: 100px;
 }
-.bestservice span{
-	color: #fe6d34;
-}
+
 
 .bestservice h1+p{
+
 	margin-top: 30px;
 }
 
@@ -217,10 +253,12 @@ hr{
 /* *************** slider *************** */
 
 .carousel-item{
+
 	margin: 0 auto;
 }
 
 .slide{
+
 	width: 90%;
 	margin: 0 auto;
 	overflow: hidden;
@@ -230,15 +268,18 @@ hr{
 /* prev arrow */
 
 .carousel-control-prev i{
+
 	color: black;
 	margin-top: 600px;
-margin-left: 800px;
+    margin-left: 800px;
+
 }
 
 
 /* next arrow */
 
 .carousel-control-next i{
+
 	color: black;
 	margin-top: 600px;
 	margin-left: -810px;
@@ -257,49 +298,76 @@ margin-left: 800px;
 /* Get digital people section */
 
 .leftsidecontainer {
+
 	margin-top: 180px;
 }
 
 .rightsidecontainer{
+
 	margin-top: 180px;
 }
 
-.leftsidecontainer span {
-color: #fe6d34;
-}
 
 /*  elements of left side container */
 
 .leftsidecontainer h1{
+
 	color: #143d3c;
 }
 
 .leftsidecontainer h1+p {
+
 	margin-top: 30px;
+}
+
+
+/* ****** enhance properties for a responsive view ****** */
+
+@media screen and (max-width: 1052px){
+  .rightsidecontainer img{
+  	width: 550px;
+  }
+
+}
+
+@media screen and (max-width: 1051px){
+  .rightsidecontainer img{
+  	width: 350px;
+  }
+
+}
+
+@media screen and (max-width: 734px){
+  .rightsidecontainer img{
+  	margin-top: 200px;
+  	width: 300px;
+  }
+
 }
 
 
 /* ************************ recent work section **********************************/
 
 .recentworkcontainer{
+
 	margin-top: 180px;
 }
 
-.recentworkcontainer span{
-	color: #fe6d34;
-}
 
 .recentworkcontainer h1{
+
 	color: #143d3c;
 }
 
 /* styling element of card */
 
 .recentworkcontainer .card{
+
 	width: 22em;
 }
 
 .recentworkcontainer .card .card-img-top{
+
 	width: 22em;
 	margin-top: 0;
 }
@@ -307,10 +375,12 @@ color: #fe6d34;
 
 
 .recentworkcontainer .card p{
+
 	font-size: 22px;
 }
 
 .recentworkcontainer .card p:hover{
+
 	color: #fe6d34;
 }
 
@@ -339,7 +409,8 @@ margin-top: 180px;
 
   /* at 1010px */
 
-@media screen and (max-width: 1010px){
+
+@media screen and (max-width: 1192px){
 
 .recentworkcontainer .card{
 	width: 19em;
@@ -355,14 +426,14 @@ margin-top: 180px;
 
   /* at 944 */
 
-@media screen and (max-width: 944px){
+@media screen and (max-width: 990px){
 
 .recentworkcontainer .card{
-	width: 15em;
+	width: 14em;
 }
 
 .recentworkcontainer .card .card-img-top{
-	width: 15em;
+	width: 14em;
 	margin-top: 0;
 }
 
@@ -416,9 +487,6 @@ margin: 0 auto;
 	margin-top: 100px;
 }
 
-.review span{
-	color: #fe6d34;
-}
 .review h1{
 	color: #143d3c;
 }
@@ -470,7 +538,7 @@ height: 200px;
 
 
 .contactleftside .card{
-
+     
 	margin-top: 80px;
 }
 
@@ -485,7 +553,17 @@ height: 200px;
 
 
 .contactleftside .card-body i{
+
 	color: #fe6d34;
+}
+
+@media screen and (max-width: 1124px){
+
+.contactleftside .card{
+
+     width: 17em;
+}
+
 }
 
 
@@ -498,52 +576,68 @@ height: 200px;
 
 
 .lastblog span:nth-child(1){
+
 	color: #fe6d34;
 }
 
 
 .lastblog-album .card{
+
 	height: 460px;
 	width: 19em;
 }
 
 
 .lastblog-album .card .card-img-top{
+
 	width: 19em;
 	margin-top: 0;
 }
 
 
+.lastblog-album .date{
+
+	font-size: 12px;
+	}
+
+
 /* ************************* menu fin page *************************** */
 
 .menu-fin-page{
+
 	margin-top: 130px;
 }
 
 
 .menu-fin-page i{
+
 	font-size: 16px;
 }
 
 
 .menu-fin-page span{
+
 	display: inline;
+	padding: 10px;
 	
 }
 
 .menu-fin-page a{
+
 	padding: 5px;
 	display: block;
 	
 }
 
 .menu-fin-page .input-group-text{
+
 	height: 38px;
 	background: white;
 }
 
 .menu-fin-page .input-group-text i{
-position: absolute;
+
+    position: absolute;
 	margin-top: 5px;
 	margin-left: -7px;
 	color: #fe6d34; 
@@ -553,5 +647,6 @@ position: absolute;
 /* ****************************** footer ************************ */
 
 footer {
+
 	margin-top: 100px;
 }

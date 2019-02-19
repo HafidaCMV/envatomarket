@@ -20,7 +20,8 @@
 
 
 <link href="https://fonts.googleapis.com/css?family=Anton|Baloo|Helvetica|Arial|Titillium+Web" rel="stylesheet">
-<link rel="preload" href="https://a5.behance.net/57d4aeaa71d6056425089a7c0448dd0bf07edde2/fonts/AcuminPro/acumin.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+
 <!--************************************************************************ fichier ccs ***************************************************** -->
  <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -31,10 +32,12 @@
 
 <!-- *********************** nav bar ******************************** -->
 
- <div class="container-fluid nav-logo"> 
 
+
+ <nav class="navbar navbar-light nav-logo">
 
            <a href="https://themeforest.net/item/xaedkb-digital-marketing-html-template/23322298"> <img class="logo mt-3" src="envatomarket.png"></a>
+
 
   <ul class="nav justify-content-end">
 
@@ -58,7 +61,7 @@
    </ul>
 
 
- </div>
+ </nav>
 
 
 
@@ -72,44 +75,53 @@
 
   <div class="collapse navbar-collapse" id="navbarNav">
 
-    <ul class="navbar-nav secondeliste">
 
 
-     <li class="nav-item ml-5 active">
+
+
+    <div class="navbar-nav listecentre">
+
+
+     
         <a class="nav-link home text-secondary" href="#"> <strong> Home. </strong> </a>
-     </li>
+     
 
-     <li class="nav-item">
         <a class="nav-link" href="#"> <strong> Pages. </strong> </a>
-     </li>
+     
 
-
-     <li class="nav-item">
         <a class="nav-link" href="#"> <strong> Services. </strong></a>
-      </li>
+     
 
-      <li class="nav-item">
         <a class="nav-link" href="#"> <strong> Portfolio. </strong></a>
-      </li>
+      
 
-      <li class="nav-item">
         <a class="nav-link" href="#"> <strong> Blog. </strong> </a>
-      </li>
 
-      <li class="nav-item">
         <a class="nav-link" href="#"> <strong> Contact. </strong> </a>
-      </li>
+     
 
-      <li class="nav-item">
-        <a class="nav-link ml-5" href="#"> <strong>  +840254698 </strong> </a>
-      </li>
+      
+     </div>
 
-      <li class="nav-item">
+
+
+<!-- section droite-->
+
+
+     <div class="navbar-nav listedroite">
+
+
+        <a class="nav-link number ml-5" href="#"> <strong>  +840254698 </strong> </a>
+
+<!-- bouton contact -->
+
         <a class="nav-link navlinkbutton ml-3 text-white btn" href="#"> Contact Us <i class="fas fa-arrow-right ml-1"></i></a>
-      </li>
 
+        
 
-     </ul>
+      
+
+     </div>
 
  </div>
 
@@ -135,6 +147,7 @@
 
 
                <button class="btn standard-button mt-5"> More About Us  </button> 
+
                <span class="talk"> Talk to our team  </span>   <i class="fas fa-arrow-right"></i> 
 
              </div>
@@ -145,7 +158,7 @@
 
          <div class="col-lg-6 col-sm-12 mt-5"> 
 
-            <img src="business.png">  
+            <img src="business.png" class="business-img">  
 
 
          </div>
@@ -235,43 +248,41 @@
  </div>
 
 
+<!-- ************************** Short Brief *************************** -->
 
-<div class="container" >
+<div class="container short-brief">
+
     <div class="row">
 
  <div class="col-lg-6 col-md-6 col-sm-12">
 
- 	 <div class="short-brief"> 
+ 	 
       
       <span> Who we Are?</span>
-      <h1> Shor Brief About Us </h1>
+      <h1> <strong> Shor Brief About Us </strong> </h1>
       <p> A collection of textile samples lay spread out on the table amsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice </p>
 
       <p> Samples lay spread out on the table amsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy </p>
 
       <button class="btn  standard-button"> More About Us </button>
 
- 	 </div>
+ 	
 
  </div>
 
 
 
  <div class="col-lg-6 col-md-6 col-sm-12">
+ 	
 
- 	 <div class="short-brief"> 
-
-       <img src="shortbrief.png">
-     </div>
+ 	 <img src="shortbrief.png">
+     
 
  </div>
 
-
-
-
-
-        
+    
     </div>
+
  </div>
 
 
@@ -280,7 +291,7 @@
       <center>
 
           <span> Our Best Services </span>
-          <h1> We provide Best Solutio For Our Client's </h1>
+          <h1> <strong> We provide Best Solutio For Our Client's </strong> </h1>
           <p> It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out </p>
 
 
@@ -329,7 +340,7 @@
 
 <!-- ************************  section: recent work ***************************  -->
 
-<div class="container-fluid recentworkcontainer">
+<div class="container recentworkcontainer">
 
   <center>
 
@@ -427,6 +438,7 @@ Done a Lot of Work  </strong> </h1>
 <div class="container recentworkcontainer"> 
 
      <center>
+
        <span> Recent work </span>
 
          <h1> Checkout our Recent Work, <br>
@@ -462,10 +474,10 @@ Done a Lot of Work  </strong> </h1>
 
               <span class="text-secondary number-unit"> $55.00</span> <span class="ml-2 text-secondary"> /mo </span>
 
-                  <p class="group-span mt-4 text-secondary"> <span> <i class="far fa-check-square"></i>   Urned to look out the window </span> 
-                      <span> <i class="far fa-check-square"></i>   Raising a heavy fur muff thatw </span>
-                      <span> <i class="far fa-check-square"></i>    Raising a heavy fur muff thatw </span>
-                      <span> <i class="far fa-check-square"></i>   Raising a heavy fur muff thatw </span>   
+                  <p class="group-span mt-4 text-secondary"> <span class="text-secondary"> <i class="far fa-check-square"></i>   Urned to look out the window </span> 
+                      <span class="text-secondary"> <i class="far fa-check-square"></i>   Raising a heavy fur muff thatw </span>
+                      <span class="text-secondary"> <i class="far fa-check-square"></i>    Raising a heavy fur muff thatw </span>
+                      <span class="text-secondary"> <i class="far fa-check-square"></i>   Raising a heavy fur muff thatw </span>   
 
                   </p>
 
@@ -497,10 +509,10 @@ Done a Lot of Work  </strong> </h1>
 
                        <span class="text-secondary number-unit"> $65.00</span> <span class="ml-2 text-secondary"> /mo </span>
 
-                       <p class="group-span mt-4 text-secondary"> <span> <i class="far fa-check-square"></i>   Urned to look out the window </span> 
-                      <span> <i class="far fa-check-square"></i>    Raising a heavy fur muff thatw </span>
-                      <span> <i class="far fa-check-square"></i>   Raising a heavy fur muff thatw</span>
-                      <span> <i class="far fa-check-square"></i>   Raising a heavy fur muff thatw </span>   
+                       <p class="group-span mt-4 text-secondary"> <span class="text-secondary"> <i class="far fa-check-square"></i>   Urned to look out the window </span> 
+                      <span class="text-secondary"> <i class="far fa-check-square"></i>    Raising a heavy fur muff thatw </span>
+                      <span class="text-secondary"> <i class="far fa-check-square"></i>   Raising a heavy fur muff thatw</span>
+                      <span class="text-secondary"> <i class="far fa-check-square"></i>   Raising a heavy fur muff thatw </span>   
                       </p>
                   
 <!-- button get package now -->
@@ -531,14 +543,15 @@ Done a Lot of Work  </strong> </h1>
 
                        <span class="text-secondary number-unit"> $75.00</span> <span class="ml-2 text-secondary"> /mo </span>
 
-                         <p class="group-span mt-4 text-secondary"> <span> <i class="far fa-check-square"></i>   Urned to look out the window </span> 
-                          <span> <i class="far fa-check-square"></i>    Raising a heavy fur muff thatw </span>
-                          <span> <i class="far fa-check-square"></i>   Raising a heavy fur muff that</span>
-                          <span> <i class="far fa-check-square"></i>   Raising a heavy fur muff thatw </span>   
+                         <p class="group-span mt-4 text-secondary"> <span class="text-secondary"> <i class="far fa-check-square"></i>   Urned to look out the window </span> 
+                          <span class="text-secondary"> <i class="far fa-check-square"></i>    Raising a heavy fur muff thatw </span>
+                          <span class="text-secondary"> <i class="far fa-check-square"></i>   Raising a heavy fur muff that</span>
+                          <span class="text-secondary"> <i class="far fa-check-square"></i>   Raising a heavy fur muff thatw </span>   
 
                          </p>
 
 <!-- button get package now -->
+
                           <button class="btn disabled mt-4 getpackagenow"> <strong> Get Package Now </strong>  </button>
 
                      </center>
@@ -581,7 +594,9 @@ Done a Lot of Work  </strong> </h1>
 
            <div class="carousel-inner">
 
+
 <!-- first slide -->
+
 
                  <div class="carousel-item active">
 
@@ -606,14 +621,18 @@ Done a Lot of Work  </strong> </h1>
 
                  </div>
 
+
 <!-- second slide -->
+
 
                  <div class="carousel-item">
 
                          <div class="row">
 
                    <div class="col-lg-1 col-sm-1">
+
                     <span> <i class="fas quote fa-quote-left"></i> </span>
+
                    </div>
 
                   <div class="col-lg-10 col-sm-10">
@@ -621,6 +640,7 @@ Done a Lot of Work  </strong> </h1>
                    <p> Textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat. </p>
 
                    <h5> Jhon Dow</h5>
+
                    <span> CEO of Donation FD</span>
 
                    </div>
@@ -681,7 +701,7 @@ Done a Lot of Work  </strong> </h1>
 <!-- questions field -->
 
 
-      	 <div class="col-lg-9 col-md-12 col-sm-12"> 
+         <div class="col-lg-9 col-md-12 col-sm-12"> 
 
           <span> Contact Now </span>
          <h1>If You Have Any question, Then Fell <br> Free To Contact With Us </h1>
@@ -697,7 +717,7 @@ Done a Lot of Work  </strong> </h1>
 
                  <!-- nom -->
 
-                       	  <div class="col-lg-6 col-md-6 col-sm-6">
+                          <div class="col-lg-6 col-md-6 col-sm-6">
                           <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name"> 
                           </div>
 
@@ -730,12 +750,12 @@ Done a Lot of Work  </strong> </h1>
 
 
 
-      	 </div>
+         </div>
 
 
-      	 <div class="col-lg-3 col-md-12 col-sm-12 contactleftside">
+         <div class="col-lg-3 col-md-12 col-sm-12 contactleftside">
 
-      	 	<center>
+          <center>
   
               <div class="card">
 
@@ -798,8 +818,8 @@ Done a Lot of Work  </strong> </h1>
                          <hr class="mt-5">
 
                          <div class="row"> 
-                         	<div class="col-lg-4 col-md-4 col-sm-4 text-warning"> <small> Jan 31, 2018 </small>  </div>
-                         	<div class="col-lg-8 col-md-8 col-sm-8 text-warning"> <small> Jan 31, 2018Agency, Business </small> </div>
+                         	<div class="col-lg-4 col-md-4 col-sm-4 date"> <span> Jan 31, 2018 </span>  </div>
+                         	<div class="col-lg-8 col-md-8 col-sm-8 date"> <span> Jan 31, 2018Agency, Business </span> </div>
 
                          </div>
 
@@ -832,8 +852,8 @@ Done a Lot of Work  </strong> </h1>
                          <hr class="mt-5">
 
                          <div class="row"> 
-                         	<div class="col-lg-4 col-md-4 col-sm-4 text-warning"> <small> Jan 31, 2018 </small> </div>
-                         	<div class="col-lg-8 col-md-8 col-sm-8 text-warning"> <small> Jan 31, 2018Agency, Business </small> </div>
+                         	<div class="col-lg-4 col-md-4 col-sm-4 date"> <span> Jan 31, 2018 </span> </div>
+                         	<div class="col-lg-8 col-md-8 col-sm-8 date"> <span> Jan 31, 2018Agency, Business </span> </div>
 
                          </div>
 
@@ -869,8 +889,8 @@ Done a Lot of Work  </strong> </h1>
 
                          <div class="row">  
 
-                         	<div class="col-lg-4 col-md-4 col-sm-4 text-warning"> <small> Jan 31, 2018 </small> </div>
-                         	<div class="col-lg-8 col-md-8 col-sm-8 text-warning"> <small> Jan 31, 2018Agency, Business </small> </div>
+                         	<div class="col-lg-4 col-md-4 col-sm-4 date"> <span> Jan 31, 2018 </span> </div>
+                         	<div class="col-lg-8 col-md-8 col-sm-8 date"> <span> Jan 31, 2018Agency, Business </span> </div>
 
                          </div>
 
